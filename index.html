@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Grupinho Legal</title>
+  </head>
+  <body>
+    <main>
+      <h1>Quem é você?</h1>
+      <div>
+          <select name="nome" id="nome">
+            <option value="desconhecido" selected>Outra pessoa...</option>
+            <option value="o">Isaías</option>
+            <option value="a">Manu</option>
+            <option value="a">Dani</option>
+            <option value="o">Maykon</option>
+            <option value="o">Leozão</option>
+            <option value="o">Gabriel</option>
+          </select>
+          <input type="submit" value="Conferir" onclick= resultado() >
+      </div>
+      <div>
+        <img src="https://cdn-icons-png.flaticon.com/512/71/71768.png" alt="Foto" />
+      </div>
+      <div class="result" id="boasvindas">
+        <h2></h2>
+      </div>
+      <div class="result" id="expulsao">
+        <h2>Vá embora estranho!</h2>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
