@@ -40,5 +40,9 @@ function resultado() {
         if (pessoa.split("-")[1] != 'Dani'){
             document.getElementsByTagName("img")[0].src = "imgs/" + fotos[pessoa.split("-")[1]]
         }
+
+        else{
+            document.getElementsByTagName("img")[0].src = "https://cdn-icons-png.flaticon.com/512/71/71768.png"
+        }
     }
 }
