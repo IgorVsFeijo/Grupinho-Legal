@@ -12,6 +12,7 @@ function resultado() {
     if(pessoa.includes("desconhecido")){
         document.getElementById("expulsao").style.display = "block"
         document.getElementById("boasvindas").style = ""
+        document.getElementsByTagName("img")[0].src = "https://cdn-icons-png.flaticon.com/512/71/71768.png"
     }
 
     else{
